@@ -6,6 +6,7 @@ var rabbit = document.getElementById("rabbit");
 var bless1 = document.querySelector(".bless1");
 var bless2 = document.querySelector(".bless2");
 var bless3 = document.querySelector(".bless3");
+var button = document.querySelector(".button");
 
 function gift1_move() {
   gift2.style.display = "none";
@@ -21,6 +22,10 @@ function gift1_move() {
   setTimeout(function () {
     bless1.style.display = "block";
   }, 4000);
+  
+  setTimeout(function () {
+    button.style.display = "block";
+  }, 10000);
 }
 
 function gift2_move() {
@@ -37,6 +42,10 @@ function gift2_move() {
   setTimeout(function () {
     bless2.style.display = "block";
   }, 4000);
+  
+  setTimeout(function () {
+    button.style.display = "block";
+  }, 10000);
 }
 
 function gift3_move() {
@@ -53,4 +62,8 @@ function gift3_move() {
   setTimeout(function () {
     bless3.style.display = "block";
   }, 4000);
+  
+  setTimeout(function () {
+    button.style.display = "block";
+  }, 10000);
 }
