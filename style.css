@@ -392,3 +392,40 @@ body {
   color: #fff;
   opacity: 0.8;
 }
+
+.button {
+  background: #fff;
+  border: none;
+  color: #d182a4;
+  padding: 15px 20px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  position: absolute;
+  top: 89%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 15%;
+
+  opacity: 1;
+  transition: 0.5s;
+
+  animation-name: buttonmove;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes buttonmove {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
